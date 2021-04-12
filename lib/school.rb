@@ -20,5 +20,11 @@ ROSTER = {}
     end
   end
 
-
+  def sort
+    new_hash = {}
+    roster.each do |g, s|
+      new_hash[g] = s.sort
+    end
+    new_hash
+  end
 end

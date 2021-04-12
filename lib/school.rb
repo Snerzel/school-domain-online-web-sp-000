@@ -13,7 +13,7 @@ ROSTER = {}
   end
 
   def grade(grade)
-    roster.scan do |g, s|
+    roster.detect do |g, s|
       if g == grade
         s
       end

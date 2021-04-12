@@ -17,7 +17,7 @@ ROSTER = {}
       if g == grade
         s
       end
-    end  
+    end
 
 
 

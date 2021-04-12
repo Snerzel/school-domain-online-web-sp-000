@@ -18,7 +18,7 @@ ROSTER = {}
         s
       end
     end
-
+  end
 
 
 end

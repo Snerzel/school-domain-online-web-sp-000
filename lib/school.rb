@@ -15,7 +15,7 @@ ROSTER = {}
   def grade(grade)
     roster.detect do |g, s|
       if g == grade
-        s
+      return s
       end
     end
   end

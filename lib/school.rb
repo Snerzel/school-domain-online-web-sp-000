@@ -12,9 +12,9 @@ ROSTER = {}
     roster[grade] << student
   end
 
-  def grade(grade1)
+  def grade(grade)
     roster.detect do |g, s|
-      if g == grade1
+      if g == grade
         s
       end
     end

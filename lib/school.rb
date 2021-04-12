@@ -12,6 +12,12 @@ ROSTER = {}
     roster[grade] << student
   end
 
+  def grade(grade)
+    roster.scan do |g, s|
+      if g == grade
+        s
+      end
+    end  
 
 
 
